@@ -216,7 +216,7 @@ implements them.
 | Material Weakness `[SOX]` | A deficiency, or a combination of deficiencies, in ICFR such that there is a reasonable possibility that a material misstatement of the annual or interim financial statements will not be prevented or detected on a timely basis. | PCAOB AS 2201 A7 |
 | Maximum Tolerable Period of Disruption (MTPD) | The time after which the impact of not resuming a process becomes unacceptable. Values are in RSK-004. | ISO 22301; ISO/TS 22317 |
 | Media | Any physical or electronic medium on which information is recorded, including drives, removable storage, paper, and virtual disks. | NIST SP 800-88 |
-| Media Sanitization | Rendering data on Media unrecoverable by Clear, Purge or Destroy methods under SEC-017. | NIST SP 800-88 Rev. 1 |
+| Media Sanitization | Rendering data on Media unrecoverable by Clear, Purge or Destroy methods under SEC-017. | NIST SP 800-88 Rev. 2 |
 | Minimum Necessary `[HIPAA]` | The standard limiting uses, disclosures and requests of PHI to the minimum necessary to accomplish the intended purpose. | 45 CFR §164.502(b) |
 | Minor Change | A change to a suite document limited to spelling, formatting, cross-reference corrections, role-holder updates or clarifications that do not change the meaning of any requirement. Approval rules are in GOV-002. | GOV-002 |
 | Mobile Application Management (MAM) | Application-level Controls that protect Organization data within managed applications, including on BYOD. | NIST SP 800-124 |

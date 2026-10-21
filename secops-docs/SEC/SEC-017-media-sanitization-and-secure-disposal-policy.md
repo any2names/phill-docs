@@ -28,7 +28,7 @@
 This Policy ensures that information cannot be recovered from Media, equipment or Cloud
 Services after they are reused, returned, sold, recycled or destroyed, or after the data
 reaches the end of its retention period. It requires Media Sanitization methods aligned with
-NIST SP 800-88 Rev. 1 (Clear, Purge, Destroy) selected by Classification Level and media
+NIST SP 800-88 Rev. 2 (Clear, Purge, Destroy) selected by Classification Level and media
 type, controlled custody until sanitization, verification, and auditable records.
 
 ## 4. Scope
@@ -47,7 +47,7 @@ type, controlled custody until sanitization, verification, and auditable records
 
 - **SEC-017.5.1.1** All Media containing Organization information at Internal level or above SHALL be sanitized using the method required by section 5.2 before it is: reused within the Organization for a different purpose or user; released outside Organization control (sale, donation, return to lessor, warranty replacement, recycling); or disposed of.
 - **SEC-017.5.1.2** Data SHALL be deleted or Media sanitized when the retention period in CMP-004 expires, unless a Legal Hold applies. Before any sanitization of Media holding records, the Data Custodian SHALL confirm with the GC's Legal Hold Register that no Legal Hold applies.
-- **SEC-017.5.1.3** Sanitization methods SHALL follow NIST SP 800-88 Rev. 1 and the device manufacturer's documented sanitize commands. Where Media type or condition prevents the required method, the next stronger method SHALL be used (Clear → Purge → Destroy).
+- **SEC-017.5.1.3** Sanitization methods SHALL follow NIST SP 800-88 Rev. 2 and the device manufacturer's documented sanitize commands. Where Media type or condition prevents the required method, the next stronger method SHALL be used (Clear → Purge → Destroy).
 - **SEC-017.5.1.4** Media that is damaged, failed, or cannot be verified as sanitized SHALL be destroyed.
 - **SEC-017.5.1.5** Every sanitization or destruction of Media from an asset in the Asset Inventory SHALL be recorded against the asset record under SEC-001, and the asset transitioned to the "Disposed" lifecycle state only after a sanitization record or Certificate of Destruction is received.
 
@@ -149,7 +149,7 @@ type, controlled custody until sanitization, verification, and auditable records
 
 | ID | Requirement | Value |
 |---|---|---|
-| SEC-017.7.1 | Sanitization standard | NIST SP 800-88 Rev. 1 Clear / Purge / Destroy per section 5.2 |
+| SEC-017.7.1 | Sanitization standard | NIST SP 800-88 Rev. 2 Clear / Purge / Destroy per section 5.2 |
 | SEC-017.7.2 | Maximum time Media held awaiting sanitization or collection | 30 days from removal from service |
 | SEC-017.7.3 | Paper shredding particle security level | Internal and Confidential: DIN 66399 P-4 · Restricted: P-5 (or pulping / incineration) |
 | SEC-017.7.4 | Purge verification coverage | Restricted: 100% of items · Confidential: 100% of items leaving control; 10% sample for internal reuse · Internal: 10% sample |
